@@ -21,6 +21,8 @@ gem 'rspec-rails'
 gem 'factory_bot_rails'
 gem 'active_model_serializers'
 gem 'kaminari'
+gem "octokit", "~> 4.0"
+# client = Octokit::Client.new( client_id: 'b3b0fc2679ff3132d9b4, client_secret: '408aeebf7d8524e7be88f852477be4254339c606' )
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
